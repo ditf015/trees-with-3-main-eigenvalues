@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SageMath scripts for the classification of trees with exactly three main eigenvalues"
+version: 1.0.0
+date-released: 2025-12-18
+authors:
+  - family-names: Cha
+    given-names: Hangxi
+    affiliation: "School of Mathematical Sciences, Tongji University"
+doi: "10.5281/zenodo.17978949"
+url: "https://github.com/ditf015/trees-with-3-main-eigenvalues"
