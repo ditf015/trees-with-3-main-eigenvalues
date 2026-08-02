@@ -7,10 +7,12 @@ Repository: https://github.com/ditf015/trees-with-3-main-eigenvalues
 ## Repository structure
 
 - `lemma3_3/grobner_basis.ipynb`  
-  Gröbner basis elimination for the Diophantine system in Lemma 3.3.
+  Gröbner basis elimination and verification of the explicit coefficients
+  $H_1,H_2,H_3$ for the Diophantine system in Lemma 3.3.
 
 - `lemma3_4/grobner_basis.ipynb`  
-  Gröbner basis elimination for the Diophantine system in Lemma 3.4.
+  Gröbner basis elimination and verification of the explicit coefficients
+  $H_1,H_2,H_3$ for the Diophantine system in Lemma 3.4.
 
 - `theorem3_6/verify_linear_system_coefficients.ipynb`  
   Verification of the walk-count coefficients appearing in the linear system of Theorem 3.6.
@@ -44,7 +46,8 @@ sage -n jupyter
 
 ## Notes
 
-- The Gröbner basis notebooks are intended for symbolic verification of the elimination arguments used in the proofs.
+- The Gröbner basis notebooks verify both the elimination arguments and the
+  displayed ideal-membership certificates used in the proofs.
 - The exhaustive-search notebooks are long-running computations and may create result folders next to the notebook files.
 - For an exact software citation, please use the archived GitHub or Zenodo release corresponding to the version you used.
 
